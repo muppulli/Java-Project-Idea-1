@@ -12,14 +12,12 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/")
 public class UsersController {
-    private  UserServices userService;
+    private final UserServices userService;
+
     @Autowired
-    public UsersController(  UserServices userService) {
+    public UsersController(UserServices userService) {
         this.userService = userService;
     }
-
-
-
 
     @RequestMapping(value = "users", method = RequestMethod.GET)
     public ResponseEntity<List<Users>> GetUsers() {
