@@ -14,6 +14,10 @@ import { UserComponent } from './user/user.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import {MatRippleModule} from '@angular/material/core';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import { SignInComponent } from './sign-in/sign-in.component';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 
 @NgModule({
@@ -21,7 +25,8 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     AppComponent,
     //  UserComponentComponent,
     UserComponent,
-    DashboardComponent
+    DashboardComponent,
+    SignInComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +38,10 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     MatIconModule,
     MatCardModule,
     MatRippleModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatDialogModule,
+    MatDividerModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent],
@@ -44,7 +52,10 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     MatIconModule,
     MatCardModule,
     MatRippleModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatDialogModule,
+    MatDividerModule,
+    MatSidenavModule
   ]
 })
 export class AppModule { }
