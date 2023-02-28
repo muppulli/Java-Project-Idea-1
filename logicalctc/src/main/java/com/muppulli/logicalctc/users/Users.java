@@ -1,4 +1,4 @@
-package com.muppulli.logicalctc;
+package com.muppulli.logicalctc.users;
 
 
 import jakarta.persistence.*;
@@ -7,6 +7,11 @@ import jakarta.persistence.*;
 @Table(name = "USERS")
 public class Users {
     @Id
+//    @SequenceGenerator(name = "users_sequence",
+//            sequenceName = "users_sequence",
+//            allocationSize = 1)
+//    @GeneratedValue(strategy = GenerationType.SEQUENCE,
+//            generator = "users_sequence")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
@@ -45,20 +50,11 @@ public class Users {
         this.role = role;
     }
 
-    public int getRank() {
-        return rank;
-    }
-
-    public void setRank(int rank) {
-        this.rank = rank;
-    }
-
     public Users(Long id, String firstName, String lastName, int role, int rank) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.role = role;
-        this.rank = rank;
     }
 
     @Column(name = "first_name")
@@ -68,6 +64,4 @@ public class Users {
     private String lastName;
 
     private int role;
-
-    private int rank;
 }

@@ -12,17 +12,17 @@ public class LogicalCtcApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(LogicalCtcApplication.class, args);
-		final StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
-				.configure() // configures settings from hibernate.cfg.xml
-				.build();
-		try {
-			System.out.println("Session Starting...");
-			SessionFactory sessionFactory = new MetadataSources(registry).buildMetadata().buildSessionFactory();
-			System.out.println("sessionFactory = " + sessionFactory);
-			System.out.println("Session Started.");
-		} catch (Exception e) {
-			System.out.println("session Error:\t" + e.getMessage());
-			StandardServiceRegistryBuilder.destroy(registry);
-		}
+//		final StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
+//				.configure() // configures settings from hibernate.cfg.xml
+//				.build();
+//		try {
+//			System.out.println("Session Starting...");
+//			SessionFactory sessionFactory = new MetadataSources(registry).buildMetadata().buildSessionFactory();
+//			System.out.println("sessionFactory = " + sessionFactory);
+//			System.out.println("Session Started.");
+//		} catch (Exception e) {
+//			System.out.println("session Error:\t" + e.getMessage());
+//			StandardServiceRegistryBuilder.destroy(registry);
+//		}
 	}
 }
