@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5c39baf-0b76-4715-a9f2-7a2ec3f6e370" name="Changes" comment="app is up and running with UI with PostgreSQL">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logicalctc/src/main/java/com/muppulli/logicalctc/users/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logicalctc/src/main/java/com/muppulli/logicalctc/users/UserServices.java" afterDir="false" />
+    <list default="true" id="f5c39baf-0b76-4715-a9f2-7a2ec3f6e370" name="Changes" comment="PostgreSQL connected and the API is up and running">
+      <change afterPath="$PROJECT_DIR$/logicalctc/src/main/java/com/muppulli/logicalctc/roles/Roles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logicalctc/src/main/java/com/muppulli/logicalctc/roles/RolesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logicalctc/src/main/java/com/muppulli/logicalctc/roles/RolesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logicalctc/src/main/java/com/muppulli/logicalctc/roles/RolesServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostgreSQL sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/PostgreSQL sql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logicalctc/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/logicalctc/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logicalctc/src/main/java/com/muppulli/logicalctc/LogicalCtcApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/logicalctc/src/main/java/com/muppulli/logicalctc/LogicalCtcApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logicalctc/src/main/java/com/muppulli/logicalctc/UserServices.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logicalctc/src/main/java/com/muppulli/logicalctc/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/logicalctc/src/main/java/com/muppulli/logicalctc/users/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logicalctc/src/main/java/com/muppulli/logicalctc/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/logicalctc/src/main/java/com/muppulli/logicalctc/users/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logicalctc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/logicalctc/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logicalctc/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logicalctc/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logicalctc/src/main/java/com/muppulli/logicalctc/users/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/logicalctc/src/main/java/com/muppulli/logicalctc/users/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logicalctc/src/main/java/com/muppulli/logicalctc/users/UserServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/logicalctc/src/main/java/com/muppulli/logicalctc/users/UserServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logicalctc/src/main/java/com/muppulli/logicalctc/users/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/logicalctc/src/main/java/com/muppulli/logicalctc/users/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logicalctc/src/main/java/com/muppulli/logicalctc/users/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/logicalctc/src/main/java/com/muppulli/logicalctc/users/UsersController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677514673620</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="PostgreSQL connected and the API is up and running">
+      <created>1677581851086</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677581851086</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +126,7 @@
     <MESSAGE value="app is up and running" />
     <MESSAGE value="app is up and running with UI" />
     <MESSAGE value="app is up and running with UI with PostgreSQL" />
-    <option name="LAST_COMMIT_MESSAGE" value="app is up and running with UI with PostgreSQL" />
+    <MESSAGE value="PostgreSQL connected and the API is up and running" />
+    <option name="LAST_COMMIT_MESSAGE" value="PostgreSQL connected and the API is up and running" />
   </component>
 </project>

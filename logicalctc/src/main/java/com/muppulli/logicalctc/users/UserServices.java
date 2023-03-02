@@ -1,9 +1,8 @@
 package com.muppulli.logicalctc.users;
-import com.muppulli.logicalctc.users.UserRepository;
-import com.muppulli.logicalctc.users.Users;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class UserServices {
@@ -17,4 +16,9 @@ public class UserServices {
     public List<Users> getUsers() {
         return userRepository.findAll();
     }
+
+    public Optional<Users> getById(long id) {
+        return userRepository.findById(id);
+    }
+
 }
